@@ -36,6 +36,23 @@ body {
     transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
+.min {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.sr {
+    margin-left: 100px;
+}
+
+.mr {
+    margin-left: 240px;
+}
+
+.lr {
+    margin-left: 320px;
+}
+
 .hand {
     width: 50%;
     height: 6px;

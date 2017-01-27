@@ -36,21 +36,47 @@ body {
     transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
+.box-one, .box-two, .box-three, .box-four {
+    display: flex;
+}
+
+.box-one > div {
+    flex: 1;
+    max-width: 200px;
+    padding-bottom: 30px;
+    margin-top: -5px;
+}
+
+.box-two > div {
+    flex: 1;
+    min-width: 200px;
+    padding-bottom: 45px;
+}
+
+.box-three > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.min-fifty {
+    margin-left: -120px;
+}
+
+.min-ten {
+    margin-right: -120px;
+}
+
+.min-forty-five {
+    margin-left: -180px;
+}
+
+.min-fifteen {
+    margin-right: -180px;
+}
+
 .min {
     color: #FFF;
     font-size: 28px;
-}
-
-.sr {
-    margin-left: 100px;
-}
-
-.mr {
-    margin-left: 240px;
-}
-
-.lr {
-    margin-left: 320px;
 }
 
 .hand {

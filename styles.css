@@ -36,7 +36,7 @@ body {
     transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
-.box-one, .box-two, .box-three, .box-four {
+.box-one, .box-two, .box-three, .box-four, .box-five {
     display: flex;
 }
 
@@ -56,6 +56,18 @@ body {
 .box-three > div {
     flex: 1;
     min-width: 200px;
+    padding-bottom: 55px;
+}
+
+.box-four > div {
+    flex: 1;
+    min-width: 200px;
+    padding-bottom: 43px;
+}
+
+.box-five > div {
+    flex: 1;
+    max-width: 100;
 }
 
 .min-fifty {
@@ -73,6 +85,23 @@ body {
 .min-fifteen {
     margin-right: -180px;
 }
+
+.min-forty {
+    margin-left: -120px;
+}
+
+.min-twenty {
+    margin-right: -120px;
+}
+
+.min-thirty-five {
+    margin-left: -10px;
+}
+
+.min-twenty-five {
+    margin-right: -10px;
+}
+
 
 .min {
     color: #FFF;
